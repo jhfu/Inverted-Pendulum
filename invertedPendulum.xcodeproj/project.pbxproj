@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		476493AF1C0AF7F40018B5AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476493AE1C0AF7F40018B5AC /* LaunchScreen.storyboard */; };
+		476493B11C0AFA5A0018B5AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476493B01C0AFA5A0018B5AC /* Assets.xcassets */; };
+		47793EF31C0F299C00D1CD88 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 47793EF21C0F299C00D1CD88 /* logo.png */; };
+		4793AD7C1C0AFF8B008A2B2E /* mathSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4793AD7A1C0AFF8B008A2B2E /* mathSupport.swift */; };
+		4793AD7D1C0AFF8B008A2B2E /* OscilloscopeCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4793AD7B1C0AFF8B008A2B2E /* OscilloscopeCurve.swift */; };
+		47C974711C07896600C4098F /* linkage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C974701C07896600C4098F /* linkage.swift */; };
+		47D9EF111C04767100E0A8C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9EF101C04767100E0A8C8 /* AppDelegate.swift */; };
+		47D9EF131C04767100E0A8C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9EF121C04767100E0A8C8 /* ViewController.swift */; };
+		47D9EF161C04767100E0A8C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D9EF141C04767100E0A8C8 /* Main.storyboard */; };
+		47D9EF261C04767200E0A8C8 /* invertedPendulumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9EF251C04767200E0A8C8 /* invertedPendulumTests.swift */; };
+		47D9EF311C04767200E0A8C8 /* invertedPendulumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9EF301C04767200E0A8C8 /* invertedPendulumUITests.swift */; };
+		47E5EAAB1C05F6590011398B /* myView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5EAAA1C05F6590011398B /* myView.swift */; };
+		47E5EAAD1C05F7370011398B /* twoOrderInvertedPendulum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E5EAAC1C05F7370011398B /* twoOrderInvertedPendulum.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47D9EF221C04767200E0A8C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47D9EF051C04767100E0A8C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D9EF0C1C04767100E0A8C8;
+			remoteInfo = invertedPendulum;
+		};
+		47D9EF2D1C04767200E0A8C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47D9EF051C04767100E0A8C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D9EF0C1C04767100E0A8C8;
+			remoteInfo = invertedPendulum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		476493AE1C0AF7F40018B5AC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		476493B01C0AFA5A0018B5AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47793EF21C0F299C00D1CD88 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		4793AD7A1C0AFF8B008A2B2E /* mathSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mathSupport.swift; sourceTree = "<group>"; };
+		4793AD7B1C0AFF8B008A2B2E /* OscilloscopeCurve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OscilloscopeCurve.swift; sourceTree = "<group>"; };
+		47C974701C07896600C4098F /* linkage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = linkage.swift; sourceTree = "<group>"; };
+		47D9EF0D1C04767100E0A8C8 /* invertedPendulum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = invertedPendulum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D9EF101C04767100E0A8C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47D9EF121C04767100E0A8C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47D9EF151C04767100E0A8C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47D9EF1C1C04767100E0A8C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D9EF211C04767200E0A8C8 /* invertedPendulumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = invertedPendulumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D9EF251C04767200E0A8C8 /* invertedPendulumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invertedPendulumTests.swift; sourceTree = "<group>"; };
+		47D9EF271C04767200E0A8C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D9EF2C1C04767200E0A8C8 /* invertedPendulumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = invertedPendulumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D9EF301C04767200E0A8C8 /* invertedPendulumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invertedPendulumUITests.swift; sourceTree = "<group>"; };
+		47D9EF321C04767200E0A8C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E5EAAA1C05F6590011398B /* myView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myView.swift; sourceTree = "<group>"; };
+		47E5EAAC1C05F7370011398B /* twoOrderInvertedPendulum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = twoOrderInvertedPendulum.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47D9EF0A1C04767100E0A8C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D9EF1E1C04767200E0A8C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D9EF291C04767200E0A8C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47D9EF041C04767100E0A8C8 = {
+			isa = PBXGroup;
+			children = (
+				47D9EF0F1C04767100E0A8C8 /* invertedPendulum */,
+				47D9EF241C04767200E0A8C8 /* invertedPendulumTests */,
+				47D9EF2F1C04767200E0A8C8 /* invertedPendulumUITests */,
+				47D9EF0E1C04767100E0A8C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47D9EF0E1C04767100E0A8C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47D9EF0D1C04767100E0A8C8 /* invertedPendulum.app */,
+				47D9EF211C04767200E0A8C8 /* invertedPendulumTests.xctest */,
+				47D9EF2C1C04767200E0A8C8 /* invertedPendulumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47D9EF0F1C04767100E0A8C8 /* invertedPendulum */ = {
+			isa = PBXGroup;
+			children = (
+				47D9EF101C04767100E0A8C8 /* AppDelegate.swift */,
+				47D9EF121C04767100E0A8C8 /* ViewController.swift */,
+				47D9EF141C04767100E0A8C8 /* Main.storyboard */,
+				476493AE1C0AF7F40018B5AC /* LaunchScreen.storyboard */,
+				476493B01C0AFA5A0018B5AC /* Assets.xcassets */,
+				47793EF21C0F299C00D1CD88 /* logo.png */,
+				47D9EF1C1C04767100E0A8C8 /* Info.plist */,
+				47C974701C07896600C4098F /* linkage.swift */,
+				47E5EAAA1C05F6590011398B /* myView.swift */,
+				47E5EAAC1C05F7370011398B /* twoOrderInvertedPendulum.swift */,
+				4793AD7B1C0AFF8B008A2B2E /* OscilloscopeCurve.swift */,
+				4793AD7A1C0AFF8B008A2B2E /* mathSupport.swift */,
+			);
+			path = invertedPendulum;
+			sourceTree = "<group>";
+		};
+		47D9EF241C04767200E0A8C8 /* invertedPendulumTests */ = {
+			isa = PBXGroup;
+			children = (
+				47D9EF251C04767200E0A8C8 /* invertedPendulumTests.swift */,
+				47D9EF271C04767200E0A8C8 /* Info.plist */,
+			);
+			path = invertedPendulumTests;
+			sourceTree = "<group>";
+		};
+		47D9EF2F1C04767200E0A8C8 /* invertedPendulumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47D9EF301C04767200E0A8C8 /* invertedPendulumUITests.swift */,
+				47D9EF321C04767200E0A8C8 /* Info.plist */,
+			);
+			path = invertedPendulumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47D9EF0C1C04767100E0A8C8 /* invertedPendulum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D9EF351C04767200E0A8C8 /* Build configuration list for PBXNativeTarget "invertedPendulum" */;
+			buildPhases = (
+				47D9EF091C04767100E0A8C8 /* Sources */,
+				47D9EF0A1C04767100E0A8C8 /* Frameworks */,
+				47D9EF0B1C04767100E0A8C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = invertedPendulum;
+			productName = invertedPendulum;
+			productReference = 47D9EF0D1C04767100E0A8C8 /* invertedPendulum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47D9EF201C04767200E0A8C8 /* invertedPendulumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D9EF381C04767200E0A8C8 /* Build configuration list for PBXNativeTarget "invertedPendulumTests" */;
+			buildPhases = (
+				47D9EF1D1C04767200E0A8C8 /* Sources */,
+				47D9EF1E1C04767200E0A8C8 /* Frameworks */,
+				47D9EF1F1C04767200E0A8C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47D9EF231C04767200E0A8C8 /* PBXTargetDependency */,
+			);
+			name = invertedPendulumTests;
+			productName = invertedPendulumTests;
+			productReference = 47D9EF211C04767200E0A8C8 /* invertedPendulumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47D9EF2B1C04767200E0A8C8 /* invertedPendulumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D9EF3B1C04767200E0A8C8 /* Build configuration list for PBXNativeTarget "invertedPendulumUITests" */;
+			buildPhases = (
+				47D9EF281C04767200E0A8C8 /* Sources */,
+				47D9EF291C04767200E0A8C8 /* Frameworks */,
+				47D9EF2A1C04767200E0A8C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47D9EF2E1C04767200E0A8C8 /* PBXTargetDependency */,
+			);
+			name = invertedPendulumUITests;
+			productName = invertedPendulumUITests;
+			productReference = 47D9EF2C1C04767200E0A8C8 /* invertedPendulumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47D9EF051C04767100E0A8C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = F;
+				TargetAttributes = {
+					47D9EF0C1C04767100E0A8C8 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					47D9EF201C04767200E0A8C8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 47D9EF0C1C04767100E0A8C8;
+					};
+					47D9EF2B1C04767200E0A8C8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 47D9EF0C1C04767100E0A8C8;
+					};
+				};
+			};
+			buildConfigurationList = 47D9EF081C04767100E0A8C8 /* Build configuration list for PBXProject "invertedPendulum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47D9EF041C04767100E0A8C8;
+			productRefGroup = 47D9EF0E1C04767100E0A8C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47D9EF0C1C04767100E0A8C8 /* invertedPendulum */,
+				47D9EF201C04767200E0A8C8 /* invertedPendulumTests */,
+				47D9EF2B1C04767200E0A8C8 /* invertedPendulumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47D9EF0B1C04767100E0A8C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47793EF31C0F299C00D1CD88 /* logo.png in Resources */,
+				476493AF1C0AF7F40018B5AC /* LaunchScreen.storyboard in Resources */,
+				476493B11C0AFA5A0018B5AC /* Assets.xcassets in Resources */,
+				47D9EF161C04767100E0A8C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D9EF1F1C04767200E0A8C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D9EF2A1C04767200E0A8C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47D9EF091C04767100E0A8C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D9EF131C04767100E0A8C8 /* ViewController.swift in Sources */,
+				4793AD7C1C0AFF8B008A2B2E /* mathSupport.swift in Sources */,
+				47E5EAAB1C05F6590011398B /* myView.swift in Sources */,
+				47C974711C07896600C4098F /* linkage.swift in Sources */,
+				4793AD7D1C0AFF8B008A2B2E /* OscilloscopeCurve.swift in Sources */,
+				47E5EAAD1C05F7370011398B /* twoOrderInvertedPendulum.swift in Sources */,
+				47D9EF111C04767100E0A8C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D9EF1D1C04767200E0A8C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D9EF261C04767200E0A8C8 /* invertedPendulumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D9EF281C04767200E0A8C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D9EF311C04767200E0A8C8 /* invertedPendulumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47D9EF231C04767200E0A8C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D9EF0C1C04767100E0A8C8 /* invertedPendulum */;
+			targetProxy = 47D9EF221C04767200E0A8C8 /* PBXContainerItemProxy */;
+		};
+		47D9EF2E1C04767200E0A8C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D9EF0C1C04767100E0A8C8 /* invertedPendulum */;
+			targetProxy = 47D9EF2D1C04767200E0A8C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47D9EF141C04767100E0A8C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47D9EF151C04767100E0A8C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47D9EF331C04767200E0A8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47D9EF341C04767200E0A8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47D9EF361C04767200E0A8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (48977X35EJ)";
+				INFOPLIST_FILE = invertedPendulum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = f.invertedPendulum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47D9EF371C04767200E0A8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wei Feng Hou (48977X35EJ)";
+				INFOPLIST_FILE = invertedPendulum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = f.invertedPendulum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47D9EF391C04767200E0A8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = invertedPendulumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = f.invertedPendulumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/invertedPendulum.app/invertedPendulum";
+			};
+			name = Debug;
+		};
+		47D9EF3A1C04767200E0A8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = invertedPendulumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = f.invertedPendulumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/invertedPendulum.app/invertedPendulum";
+			};
+			name = Release;
+		};
+		47D9EF3C1C04767200E0A8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = invertedPendulumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = f.invertedPendulumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = invertedPendulum;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		47D9EF3D1C04767200E0A8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = invertedPendulumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = f.invertedPendulumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = invertedPendulum;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47D9EF081C04767100E0A8C8 /* Build configuration list for PBXProject "invertedPendulum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D9EF331C04767200E0A8C8 /* Debug */,
+				47D9EF341C04767200E0A8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D9EF351C04767200E0A8C8 /* Build configuration list for PBXNativeTarget "invertedPendulum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D9EF361C04767200E0A8C8 /* Debug */,
+				47D9EF371C04767200E0A8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D9EF381C04767200E0A8C8 /* Build configuration list for PBXNativeTarget "invertedPendulumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D9EF391C04767200E0A8C8 /* Debug */,
+				47D9EF3A1C04767200E0A8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D9EF3B1C04767200E0A8C8 /* Build configuration list for PBXNativeTarget "invertedPendulumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D9EF3C1C04767200E0A8C8 /* Debug */,
+				47D9EF3D1C04767200E0A8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47D9EF051C04767100E0A8C8 /* Project object */;
+}
